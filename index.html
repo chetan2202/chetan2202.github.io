@@ -103,10 +103,6 @@
         color: inherit;
         transition: border-color 0.15s ease, transform 0.15s ease;
       }
-      .card:hover {
-        border-color: var(--brand-2);
-        transform: translateY(-2px);
-      }
       .card h3 {
         margin: 0;
         font-size: 1.05rem;
@@ -116,11 +112,39 @@
         color: var(--muted);
         font-size: 0.92rem;
       }
-      .card .meta {
-        margin-top: 0.6rem;
-        font-size: 0.78rem;
-        color: var(--brand-2);
+      .card-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .btn-download {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: var(--brand);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.7rem 1.4rem;
+        border-radius: 999px;
+        transition: background 0.15s ease, transform 0.15s ease;
+      }
+      .btn-download:hover {
+        background: var(--brand-2);
+        transform: translateY(-1px);
+      }
+      .source-link {
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.88rem;
         font-weight: 600;
+      }
+      .source-link:hover {
+        color: var(--brand-2);
+        text-decoration: underline;
       }
       .links {
         display: flex;
@@ -172,20 +196,22 @@
       <section>
         <h2>Projects</h2>
         <div class="cards">
-          <a class="card" href="https://chetan2202.github.io/suno-app/">
+          <div class="card">
             <h3>Family Grocery PWA</h3>
             <p>
               A local-first, offline-first family grocery app. No accounts, no cloud,
               no backend &mdash; each phone keeps its own data and syncs occasionally
               over home Wi-Fi.
             </p>
-            <span class="meta">Open the app &rarr;</span>
-          </a>
-          <a class="card" href="https://github.com/chetan2202/suno-app">
-            <h3>Family Grocery PWA &mdash; source</h3>
-            <p>Code, architecture, and requirements on GitHub.</p>
-            <span class="meta">View repository &rarr;</span>
-          </a>
+            <div class="card-actions">
+              <a class="btn-download" href="https://chetan2202.github.io/suno-app/">
+                &darr; Download App
+              </a>
+              <a class="source-link" href="https://github.com/chetan2202/suno-app">
+                Source code &rarr;
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
