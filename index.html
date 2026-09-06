@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1f7a53" />
+    <title>Chetan Vashistth</title>
+    <meta
+      name="description"
+      content="Chetan Vashistth — Solution Architect, Gen AI & Software Consultant. Projects and code."
+    />
+    <style>
+      :root {
+        --brand: #1f7a53;
+        --brand-2: #2a9d6f;
+        --bg: #f7f7f5;
+        --card: #ffffff;
+        --fg: #1a1a1a;
+        --muted: #6b6b6b;
+        --border: #e6e6e2;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #131517;
+          --card: #1c1f22;
+          --fg: #f0f0f0;
+          --muted: #a2a2a2;
+          --border: #2c2f33;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+          sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.55;
+        min-height: 100dvh;
+      }
+      .wrap {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 3rem 1.25rem 4rem;
+      }
+      header {
+        margin-bottom: 2.5rem;
+      }
+      .name {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+      }
+      .title {
+        color: var(--brand-2);
+        font-weight: 600;
+        margin: 0.35rem 0 0;
+      }
+      .tagline {
+        color: var(--muted);
+        margin: 0.75rem 0 0;
+      }
+      h2 {
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 2.5rem 0 1rem;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .chips li {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 0.35rem 0.85rem;
+        font-size: 0.85rem;
+      }
+      .cards {
+        display: grid;
+        gap: 1rem;
+      }
+      .card {
+        display: block;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 1.15rem 1.25rem;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+      }
+      .card:hover {
+        border-color: var(--brand-2);
+        transform: translateY(-2px);
+      }
+      .card h3 {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+      .card p {
+        margin: 0.4rem 0 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .card .meta {
+        margin-top: 0.6rem;
+        font-size: 0.78rem;
+        color: var(--brand-2);
+        font-weight: 600;
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        margin-top: 0.5rem;
+      }
+      .links a {
+        color: var(--brand-2);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .links a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1 class="name">Chetan Vashistth</h1>
+        <p class="title">Solution Architect &middot; Gen AI &amp; Software Consultant</p>
+        <p class="tagline">
+          I build software. In my 17th year of learning, building, and delivering
+          systems that hold up under real users, real data, and real compliance.
+        </p>
+      </header>
+
+      <section>
+        <h2>What I work on</h2>
+        <ul class="chips">
+          <li>Software architecture &amp; system design</li>
+          <li>Gen AI systems in production</li>
+          <li>Technical advisory &amp; pre-sales</li>
+          <li>Team delivery &amp; leadership</li>
+          <li>.NET</li>
+          <li>Mobile</li>
+          <li>Blockchain platforms</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="cards">
+          <a class="card" href="https://chetan2202.github.io/suno-app/">
+            <h3>Family Grocery PWA</h3>
+            <p>
+              A local-first, offline-first family grocery app. No accounts, no cloud,
+              no backend &mdash; each phone keeps its own data and syncs occasionally
+              over home Wi-Fi.
+            </p>
+            <span class="meta">Open the app &rarr;</span>
+          </a>
+          <a class="card" href="https://github.com/chetan2202/suno-app">
+            <h3>Family Grocery PWA &mdash; source</h3>
+            <p>Code, architecture, and requirements on GitHub.</p>
+            <span class="meta">View repository &rarr;</span>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Elsewhere</h2>
+        <div class="links">
+          <a href="https://chetanvashistth.com">chetanvashistth.com</a>
+          <a href="https://github.com/chetan2202">GitHub</a>
+          <a href="mailto:chetan.vashistth@gmail.com">Email</a>
+        </div>
+      </section>
+
+      <footer>
+        &copy; <span id="year"></span> Chetan Vashistth
+      </footer>
+    </div>
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
