@@ -48,3 +48,6 @@ publishes to https://chetan2202.github.io/. Pages is already enabled (source:
 
 - [Family Grocery PWA](https://chetan2202.github.io/suno-app/) —
   [source](https://github.com/chetan2202/suno-app). Linked from the Projects section.
+- [TennisLive](https://chetan2202.github.io/tennislive-app/) — 3D tennis game PWA.
+  Built files only (`chetan2202/tennislive-app`); the source repo is private, so the
+  card has no source link.
