@@ -51,3 +51,8 @@ publishes to https://chetan2202.github.io/. Pages is already enabled (source:
 - [TennisLive](https://chetan2202.github.io/tennislive-app/) — 3D tennis game PWA.
   Built files only (`chetan2202/tennislive-app`); the source repo is private, so the
   card has no source link.
+- [PickleLive](https://chetan2202.github.io/picklelive-app/),
+  [PadelLive](https://chetan2202.github.io/padellive-app/),
+  [BadmintonLive](https://chetan2202.github.io/badmintonlive-app/) — 3D pickleball,
+  padel and badminton PWAs. Same setup as TennisLive: built files only in the public
+  `-app` repos, private source, no source link on the cards.
